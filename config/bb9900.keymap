@@ -72,7 +72,7 @@
     &kp Q        &kp W      &kp E       &kp R     &kp T         &kp Y             &kp U            &kp I            &kp O            &kp P
     &kp A        &kp S      &kp D       &kp F     &kp G         &kp H             &kp J            &kp K            &kp L            &kp BSPC
     &sk LSHFT    &kp Z      &kp X       &kp C     &kp V         &kp B             &kp N            &kp M            &kp SEMI         &kp ENTER
-    &kp LCTRL               &kp LALT                            &kp SPACE                          &upper_ht UPPER UPPER             &sym_ht SYM SYM
+    &sym_ht SYM SYM         &kp LALT                            &kp SPACE                          &kp LCTRL                         &upper_ht UPPER UPPER             
             >;
         };
 
@@ -85,7 +85,7 @@
     &kp HASH     &kp N1     &kp N2      &kp N3    &kp LPAR      &kp RPAR          &kp UNDER        &kp MINUS        &kp PLUS         &kp AT
     &kp STAR     &kp N4     &kp N5      &kp N6    &kp SLASH     &kp COLON         &kp SEMI         &kp APOS         &kp DQT          &kp DEL
     &sk LSHFT    &kp N7     &kp N8      &kp N9    &kp QMARK     &kp EXCL          &kp COMMA        &kp DOT          &kp C_MUTE       &kp ENTER
-    &kp LCTRL               &kp N0                              &kp SPACE                          &upper_ht UPPER UPPER             &to 0
+    &to 0                   &kp N0                              &kp SPACE                          &kp LCTRL                         &upper_ht UPPER UPPER             
             >;
         };
 
@@ -97,7 +97,7 @@
     &none        &none      &ext_power EP_TOG      &sys_reset  &none &none         &kp LT           &kp GT          &kp PIPE         &kp KP_EQUAL
     &none        &kp UP     &none       &none      &kp BSLH          &kp AMPS      &kp LBRC         &kp RBRC        &kp CARET        &kp BSPC
     &kp LEFT     &kp DOWN   &kp RIGHT   &none      &bl BL_DEC        &bl BL_TOG    &bl BL_INC       &none           &bootloader      &kp ENTER
-    &kp LCTRL               &kp LALT                                 &hm OUT_TOG SPACE              &to 0                            &sym_ht SYM SYM
+    &sym_ht SYM SYM         &kp LALT                                 &hm OUT_TOG SPACE              &kp LCTRL                        &to 0                            
             >;
         };
     };
